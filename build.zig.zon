@@ -1,0 +1,16 @@
+.{
+    .name = .interpose,
+    .version = "0.1.0",
+    .fingerprint = 0x1dadbc5c3c6c6df,
+    .minimum_zig_version = "0.16.0",
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "module.modulemap",
+        "src",
+        "tests",
+        "LICENSE",
+        "NOTICE",
+        "README.md",
+    },
+}

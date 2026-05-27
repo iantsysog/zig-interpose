@@ -1,0 +1,15 @@
+pub const Error = error{
+    UnsupportedPlatform,
+    UnsupportedOperation,
+    UnsupportedInstruction,
+    InvalidArgument,
+    NotFound,
+    OutOfMemory,
+    AccessDenied,
+    GuardFailed,
+    Conflict,
+    InternalError,
+    BufferTooSmall,
+    ReentrantCall,
+    SymbolAmbiguous,
+};

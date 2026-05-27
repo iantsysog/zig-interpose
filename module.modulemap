@@ -1,0 +1,4 @@
+module interpose {
+    header "interpose.h"
+    export *
+}
